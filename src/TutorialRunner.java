@@ -4,7 +4,7 @@ public class TutorialRunner {
 
     enum Choice{PLAIN, NAME}
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Choice myChoice = Choice.NAME;
 
         if (myChoice == Choice.PLAIN) {
